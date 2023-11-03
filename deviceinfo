@@ -20,8 +20,8 @@ deviceinfo_screen_width="1200"
 deviceinfo_screen_height="1920"
 
 # Bootloader related
-deviceinfo_flash_method="fastboot"
-deviceinfo_kernel_cmdline="console=ttyMT0,921600n1 root=/dev/ram vmalloc=496M PMOS_NO_OUTPUT_REDIRECT earlyprintk debug loglevel=7"
+deviceinfo_flash_method="mtkclient"
+deviceinfo_kernel_cmdline="console=ttyMT0,921600n1 vmalloc=496M PMOS_NO_OUTPUT_REDIRECT earlyprintk debug loglevel=7"
 deviceinfo_generate_bootimg="true"
 deviceinfo_bootimg_qcdt="false"
 deviceinfo_bootimg_dtb_second="false"
