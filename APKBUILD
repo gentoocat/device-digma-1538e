@@ -1,4 +1,4 @@
-pkgname=device-digma-1538e-mainline
+pkgname=device-digma-ps1150ml-mainline
 pkgdesc="Digma Plane 4G 1538E"
 pkgver=1.0
 pkgrel=1
